@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <form action="submit/">
+        <h1>Survey Form</h1>
+
+        
+        <label for="name">Enter your name: </label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+       
+        <label>Gender:</label> <br>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+      
+        <label>Government ID:</label> <br>
+        <input type="checkbox" id="adhaar" name="gov_id" value="Adhaar">
+        <label for="adhaar">Adhaar</label>
+        <input type="checkbox" id="pan" name="gov_id" value="Pan">
+        <label for="pan">Pan card</label>
+        <br><br>
+
+     
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+      
+        <label for="license">Upload Driving License:</label>
+        <input type="file" id="license" name="license" required>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
