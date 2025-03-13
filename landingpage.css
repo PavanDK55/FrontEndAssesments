@@ -1,0 +1,73 @@
+body {
+    background-color: olive;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.hero-section {
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+.carousel img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.side-by-side-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.side-by-side-images img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.9s ease;
+}
+
+
+
+#feedback {
+    background: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+    
+}
+
+#feedback h2 {
+    margin-bottom: 20px;
+}
+
+#feedback form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#feedback .form-control {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+#testimonials{
+    color: aquamarine;
+}
